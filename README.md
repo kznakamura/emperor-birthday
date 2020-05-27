@@ -12,7 +12,7 @@ K. Z. Nakamura
 - 解析プログラムは基本的には描画機能を持たせない（今回は遊びでgifファイルを生成させてみたが）
 
 ## Install
-`git clone `
+`$ git clone https://github.com/kznakamura/emperor-birthday.git`
 
 ## プログラム名と機能
 - src/calc_recrrence.cc
@@ -35,5 +35,5 @@ K. Z. Nakamura
   - マクロは描画に専念させるつもりでいたが、residualをplotするために解析が必要になって、ごちゃごちゃしたプログラムになってしまった。
 
 ### C++プログラムのコンパイル方法
-- `sh make.sh filename(w/o .cc)`
+- `$ sh make.sh filename(w/o .cc)`
 - bin以下に実行ファイルが生成される
